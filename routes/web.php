@@ -5,4 +5,4 @@ Route::get('/', function () {
 });
 
 Route::resource('shares', 'ShareController');
-
+Route::resource('tests', 'TestController');

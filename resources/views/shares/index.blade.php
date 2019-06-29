@@ -39,6 +39,8 @@
             </td>
         </tr>
         @endforeach
+
+        <a href="{{ route('shares.create')}}" class="btn btn-primary">Create</a>
     </tbody>
   </table>
 <div>
